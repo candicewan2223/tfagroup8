@@ -7,6 +7,9 @@ fw2383, xz3080
 
 In the Parking.ipynb file, we import the original dataframe and define it as df. Then we define a subset of df as df1 where the zip code is 11101 and a subset named df2 where zip code is 11101 and Complaint Type is Illegal Parking.
 
-We calculate the number of illegal parking incidents in 11101 which is named parking_counts_11101 and has a value of 2982. We also calculate the number of total incidents in 11101 which is named incidents_counts_11101 and has a value of 17817. The proportion of parking incidents in 11101 is named proportion_11101 and has a value of 16.73682438120896%. We use the same strategy to calculate the proporttion of parking incidents in all zip codes which is named global_proportion and has a value of 7.487334365033108%.
+We calculate the number of illegal parking incidents in 11101 which is named parking_counts_11101 and has a value of 2982. We also calculate the number of total incidents in 11101 which is named incidents_counts_11101 and has a value of 17817. The proportion of parking incidents in 11101 is named proportion_11101 and has a value of 16.73682438120896%. 
+
+We calculate the number of illegal parking incidents in all zip codes which is named parking_counts and has a value of 193721. We also calculate the number of total incidents in all zip codes which is named incidents_counts and has a value of 2587316. The proportion of parking incidents in all zip codes is named global_proportion and has a value of 7.487334365033108%.
 
 Finally, we write an if statement to check higher_parking_proportion. If the proportion of parking incidents in 11101 is greater than the proportion of parking incidents in all zip codes, then higher_parking_proportion is True. Otherwise, it is False. The result shows that higher_parking_proportion is True which means illegal parking incidents are a larger fraction of total 311 incidents in ZIP code 11101 than they are in general.
+
